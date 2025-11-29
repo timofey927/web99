@@ -1,0 +1,42 @@
+#a {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaoZ-NHauO8BaqZok_d4yEJ1Ozwx6OFp7W9Q&s");
+        background-size: cover; 
+           /* растянуть на весь экран */
+        background-repeat: no-repeat; /* без повторов */
+        background-position: start;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#u p, #u h2{
+    color:white;
+}
+#intro {
+    color:white;
+    text-align: center;
+
+}
+/* ===== HEADER ===== */
+#header {
+    width: 100%;
+    background-color: black;
+    color: white;;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    backdrop-filter: blur(4px);
+    margin-bottom: 20px;
+}
+
+/* ===== FOOTER ===== */
+#footer {
+    width: 100%;
+    background-color: blue; /* тёмный, чуть плотнее */
+    color: #ddd;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 18px;
+    backdrop-filter: blur(4px);
+}
